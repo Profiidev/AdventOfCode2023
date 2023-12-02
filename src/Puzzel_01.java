@@ -22,7 +22,7 @@ public class Puzzel_01 {
             inputMap.put(input.get(i), i + 1);
         }
 
-        try (InputStream in = new FileInputStream("input1.txt")) {
+        try (InputStream in = new FileInputStream("res/input1.txt")) {
             byte[] bytes = in.readAllBytes();
             String[] lines = new String(bytes).split("\n");
             int sum = 0;
