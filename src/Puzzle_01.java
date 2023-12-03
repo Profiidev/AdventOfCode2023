@@ -1,10 +1,9 @@
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.List;
 
-public class Puzzel_01 {
+public class Puzzle_01 {
     public static void main(String[] args) {
         List<String> input = List.of(new String[]{
                 "one",

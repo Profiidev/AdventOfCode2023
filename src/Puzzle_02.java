@@ -1,7 +1,7 @@
 import java.io.FileInputStream;
 import java.io.InputStream;
 
-public class Puzzel_02 {
+public class Puzzle_02 {
     public static void main(String[] args) {
         int maxRed = 12;
         int maxGreen = 13;
